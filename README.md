@@ -10,13 +10,13 @@ To run the chat application locally on your machine,follow these steps:
 
 2.Clone this repository to your local machine using the following command: git clone https://github.com/Meghana0802/chat-application.git
 
-3.You have to install socket.io and socket.io-client. Use the following command: npm i socket.io,npm i socket.io-client
+3.You have to install socket.io and socket.io-client dependencies. Use the following commands: npm i socket.io socket.io-client
 
 4.Install snowpack on the client side by running:
   npm i --save-dev snowpack
 
 5.Install nodemon on the server side:
-  npm i -dev nodemon
+  npm i --save-dev nodemon
 
 ## Usage
 
@@ -32,7 +32,7 @@ To run the chat application locally on your machine,follow these steps:
 
 5.Enter the name of the chat room you want to join in the "Room" input field and click the "Join" button.
 
-6.Start chatting with other users in the selected room by typing your messages in the input field at the bottom and clicking the "Send" button.
+6.Start chatting with other users in the selected room by typing your messages in the "Message" input field at the bottom and clicking the "Send" button.
  
 ## Features
 
