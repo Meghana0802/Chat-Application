@@ -1,0 +1,18 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore .env files which may contain sensitive information
+.env
+
+# Ignore compiled files
+*.log
+*.gz
+
+# Ignore OS and editor-specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Ignore npm debugging logs
+npm-debug.log*

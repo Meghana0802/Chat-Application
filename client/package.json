@@ -1,0 +1,14 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "client part",
+  "main": "script.js",
+  "scripts": {
+    "start" : "snowpack dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "snowpack": "^3.8.8"
+  }
+}

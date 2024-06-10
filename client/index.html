@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Chat Application</title>
+</head>
+<body>
+    <!-- Login Container -->
+    <div class="login-container">
+        <h2>Login</h2>
+        <form id="login-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <button type="submit" id="login-button">Login</button>
+        </form>
+        <div id="login-error" class="error"></div> <!-- Error message container for login -->
+    </div>
+    
+    <!-- Main Container, hidden initially and shown after login -->
+    <div class="container" style="display: none;">
+        <!-- Rooms Container -->
+        <div class="rooms-container">
+            <h2>Joined Rooms</h2>
+            <ul id="rooms-list">
+                <!-- List of rooms will be dynamically added here -->
+            </ul>
+        </div>
+        
+        <!-- Chat Container -->
+        <div class="chat-container">
+            <!-- Message Container -->
+            <div id="message-container"></div>
+            
+            <!-- Message Form -->
+            <form id="form">
+                <input type="text" id="message-input" placeholder="Enter your message here">
+                <!-- Buttons for text formatting -->
+                <button title="Italic" id="italic"><i><b>I</b></i></button>
+                <button title="Bold" id="bold"><b>B</b></button>
+                <button title="Underline" id="underline"><u>U</u></button>
+                <button type="submit" id="send-button">Send</button>
+            </form>
+            
+            <!-- Room Input Container -->
+            <div class="room-input-container">
+                <input type="text" id="room-input" placeholder="Enter room name">
+                <button type="button" id="room-button">Join</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Link to the script file -->
+    <script type="module" src="script.js"></script>
+</body>
+</html>
